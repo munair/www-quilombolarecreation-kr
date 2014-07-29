@@ -27,11 +27,12 @@
 # 
 git checkout development || git checkout -b development
 git branch
-vi $1
+echo "going to add the following files to the git repository: "
+ls $1
 git add --all $1
 git commit -m "$2"
 git remote remove origin
-git remote add origin git@github.com:munair/www-quilombolarecreation-kr.git
+git remote add origin https://github.com/munair/www-quilombolarecreation-kr.git
 git push origin development
 [ $3 == "noprompting" ] || while true; do
     read -p "shall we push changes to the staging GitHub repository and the staging instance on Heroku? " yn
