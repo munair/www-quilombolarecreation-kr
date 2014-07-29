@@ -59,17 +59,18 @@ strong {font-weight:600;}
 .bg {position:fixed;z-index:-1;display:none;top:0;left:0;right:0;bottom:0;background:url(../images/background.jpg) repeat-x top;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 
 #content {position:absolute;width:520px;max-width:520px;left:-520px;top:100px;bottom:20px;padding-right:5%;color:#fff;font-family: 'NeuropolXFreeRegular', sans-serif;animation: slidein 1s;-moz-animation: slidein 1s; -webkit-animation: slidein 1s;-o-animation: slidein 1s;display:none;overflow: auto;}
-#content h1 {font-family: 'NeuropolXFreeRegular';font-size:20px;font-weight:300;margin-bottom:20px;}
+#content h1 {font-family: 'NeuropolXFreeRegular';color:#ff9900;font-size:20px;font-weight:300;margin-bottom:20px;}
 #content p {margin-bottom:10px;color:#ffffff;font-size:11px;line-height:16px;}
 #content table {font-family:'Source Sans Pro';margin-bottom:10px;color:#ffffff;font-size:10px;line-height:15px;}
 #content p:last-child {margin:0;}
 #content p a {color:#ffcc00; text-decoration:none;border-bottom: 1px solid transparent;-webkit-transition: 0.5s ease;transition: 0.5s ease;}
 #content p a:hover {border-bottom: 1px solid #ffcc00;}
-#content p strong.title {font-size:16px;}
+#content p strong.title {color:#cccccc;font-size:12px;}
 #content p:last-child{margin:0;}
 #content #faq {margin-top:20px;}
 #content #faq p {margin-bottom:20px;}
 #content #faq table td {width:70px;}
+#content #faq table p {font-family: 'NeuropolXFreeRegular';margin-bottom:10px;color:#cccccc;font-size:11px;line-height:16px;}
 #content h2.faq {font-size:13px;margin-bottom:10px;cursor:pointer;display:block;-webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;}
 #content h2.faq:hover, #content h2.faq.active {border-left:4px solid #ffcc00;padding-left:10px;color:#ffcc00;}
 #content .form {margin-top:10px;}
@@ -78,8 +79,8 @@ strong {font-weight:600;}
 #content .form label{text-align:left;width:120px;padding:2px;padding-right:10px;clear:both;display:block;float:left;margin-bottom:5px;color:#ccc;font-size:12px;text-transform:uppercase;}
 #content .form input, #content .form textarea,#content .form select{background:rgba(150,150,150,.5);color:#ddd;font-size:12px;padding:5px;border:0;}
 #content .form br{clear:both;}
-#content .form .submit {width:120px;padding:6px 8px;float:left;display:block;overflow:hidden;margin-top:10px;text-decoration:none;background: rgba(0,0,0,.4);font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#eee;border:0;-webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;}
-#content .form .submit:hover {background:rgba(0,0,0,.6);cursor:pointer;}
+#content .form .submit {width:120px;padding:6px 8px;float:left;display:block;overflow:hidden;margin-top:10px;text-decoration:none;background: rgba(150,150,150,.5);font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#eee;border:0;-webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;}
+#content .form .submit:hover {background:rgba(255,153,0,.6);cursor:pointer;}
 #content .form textarea[required], #content .form input[required] {background:rgba(200,200,200,.5);}
 #content .form textarea[required]:valid, #content .form input[required]:valid {background:rgba(200,200,200,.5);}
 #contactform p.loading {width:100%;height:100px;background:url(../images/loading.gif) no-repeat center center;opacity:0.4}
