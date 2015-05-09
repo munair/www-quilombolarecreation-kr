@@ -71,6 +71,7 @@ git remote remove production-heroku
 heroku apps:destroy www-quilombolarecreation-kr --confirm www-quilombolarecreation-kr
 heroku apps:create www-quilombolarecreation-kr
 heroku domains:add www.quilombolarecreation.kr --app www-quilombolarecreation-kr
+heroku addons:add postmark
 heroku git:remote -a www-quilombolarecreation-kr -r production-heroku
 git push production-heroku master:master
 git checkout development
